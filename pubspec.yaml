@@ -1,8 +1,8 @@
 name: flutter_hide_show_password_input
-description: A new Flutter package project.
+description: Toggle password input.
 version: 0.0.1
-author:
-homepage:
+author: Taym Haddadi <haddadi.taym@gmail.com>
+homepage: https://github.com/Taym95/flutter_hide_show_password_input
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
