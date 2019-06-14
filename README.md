@@ -1,14 +1,37 @@
 # flutter_hide_show_password_input
 
-A new Flutter package project.
 
-## Getting Started
+![ezgif-1-34ddeac7c0dd](https://user-images.githubusercontent.com/14943106/59514778-e0068e80-8ebd-11e9-9ff4-e692baa6552c.gif)
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### Installation
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Add `flutter_hide_show_password_input` to your `pubspec.yamlfile`.
+
+### Usage
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_hide_show_password_input/flutter_hide_show_password_input.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      color: Colors.grey,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Password Input Text'),
+          backgroundColor: Colors.black87,
+        ),
+        body: Container(
+            child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: PasswordInputText(),
+        )),
+      ),
+    );
+  }
+}
+```
